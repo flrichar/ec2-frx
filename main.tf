@@ -27,7 +27,7 @@ terraform {
       version = "~> 3.0"
     }
   }
-  required_version = ">= 1.3.6"
+  required_version = "~> 1.4"
 }
 
 ### add rancher-labs cloud-credential for aws ca-central-1
