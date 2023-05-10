@@ -24,7 +24,7 @@ terraform {
   required_providers {
     rancher2 = {
       source  = "rancher/rancher2"
-      version = ">= 1.25.0"
+      version = "~> 3.0"
     }
   }
   required_version = ">= 1.3.6"
